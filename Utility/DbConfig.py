@@ -1,5 +1,5 @@
 host = "localhost"
-database = "test"
+database = "projects"
 user = "postgres"
 password = "root"
 port = "5432"
