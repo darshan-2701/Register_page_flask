@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <title>Login Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <h1>Welcome to your first application</h1>
-</body>
+    <p>Don't have an account? <a href="{{ url_for('register') }}">Register</a> </p>
+    <p>Already have an account? <a href="{{ url_for('login') }}">Login</a> </p>
+    </body>
 </html>
